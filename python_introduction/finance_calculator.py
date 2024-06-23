@@ -8,5 +8,5 @@ print("Your monthly savings are", difference)
 monthly_savings = difference
 annual_savings = monthly_savings * 12
 interest = annual_savings * 0.05
-Projected_Savings = annual_savings + interest
-print("Projected annual savings after one year, with interest, is: ", Projected_Savings)
+projected_savings = annual_savings + interest
+print("Projected annual savings after one year, with interest, is: ", projected_savings)
