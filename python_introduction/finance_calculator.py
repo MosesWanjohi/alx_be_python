@@ -1,6 +1,6 @@
 monthly_income = input("Enter your monthly income: ")
 monthly_expenses = input( "Enter your total  monthly expenses: ")
-monthly_savings = int(monthly_income) -int(monthly_expenses)
+monthly_savings = float(monthly_income) - float(monthly_expenses)
 print("Your monthly savings are", monthly_savings)
 #Assume a simple annual interest rate of 5%.
 #Calculate the projected savings after one year, incorporating the interest.
