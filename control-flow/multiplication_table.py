@@ -4,5 +4,5 @@ X = number
 for Y in range(1, 11):
     Z = X * Y
     print()
-    print(f"{X} x {Y} = {Z}", end="\t")
+    print(f"{number} x {Y} = {Z}", end="\t")
 print() 
