@@ -1,5 +1,5 @@
 task = str(input("Enter your task: "))
-priority = str(input("Enter task's Priority (high/medium/low): "))
+priority = str(input("Enter task's Priority (high\/medium\/low\): "))
 time_bound = str(input("Is it time-bound? (yes/no): "))
 message = "that requires immediate attention today!"
 
