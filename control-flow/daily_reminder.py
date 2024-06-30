@@ -9,22 +9,22 @@ match priority:
     case "high":
         if time_bound == "yes":
             message = "that requires immediate attention today!"
-            print(task,  "is a", priority, "priority task", message)
+            print("Reminder:", task,  "is a", priority, "priority task", message)
         else:
-            print(task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
+            print("Reminder:", task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
 
     case "medium":
         if time_bound == "yes":
             message = "that requires moderate attention today!"
-            print(task,  "is a", priority, "priority task", message)
+            print("Reminder:", task,  "is a", priority, "priority task", message)
         else:
-            print(task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
+            print("Reminder:", task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
 
     case "low":
         if time_bound == "yes":
             message = "that requires less attention today!"
-            print(task,  "is a", priority, "priority task", message)
+            print("Reminder:", task,  "is a", priority, "priority task", message)
         else:
-            print(task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
+            print("Reminder:", task,  "is a", priority, "priority task.", "Consider completing it when you have free time")
     case _:
         print("Invalid priority input. Please enter high, medium, or low.")
