@@ -1,4 +1,4 @@
-number = int(input("Enter a number you want to see its multiplication table: "))
+number = int(input("Enter a number to see its multiplication table: "))
 Z = "product"
 X = number
 for Y in range(1, 11):
