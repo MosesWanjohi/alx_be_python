@@ -21,4 +21,4 @@ if __name__ == "__main__":
         converted_temperature = convert_to_fahrenheit(temperature)
         print(f"{temperature}°C is {converted_temperature}°F")
     else:
-        print("Invalid input. Enter valid temperature")
+        print("Invalid temperature. Please enter a numeric value.")
