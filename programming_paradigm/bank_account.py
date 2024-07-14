@@ -14,5 +14,5 @@ class BankAccount:
             return False
         #f"Insufficient funds. Account balance is: {self.account_balance}"
     def display_balance(self):
-        return f"Current Balance: ${self.account_balance :.2f}"
+        return f"'Current Balance': ${self.account_balance :.2f}"
 
