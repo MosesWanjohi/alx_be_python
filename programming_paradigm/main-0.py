@@ -1,3 +1,6 @@
+import sys
+from bank_account import BankAccount
+
 def main():
     account = BankAccount(10000)
     if len(sys.argv) < 2:
@@ -17,8 +20,8 @@ def main():
         else:
             print("Insufficient funds.")
     elif command == "display":
-        print(f"Current Balance: ${account.display_balance()}")
-   else:
+        print(f"Current Balance: {account.display_balance()}")
+    else:
         print("Invalid command.")
 
 if __name__ == "__main__":
