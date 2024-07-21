@@ -23,11 +23,11 @@ class PrintBook(Book):
         return self.page_count
     
 class Library:
-    def __init__(self, books):
+    def __init__(self):
         self.books = []
     
     def add_book(self, book):
-        self.book = book.append(self.books)
+        self.books.append(book)
     
     def list_books(self):
-        return [{book} for book in self.books]
+        return [str(book) for book in self.books]
